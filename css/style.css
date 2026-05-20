@@ -195,7 +195,7 @@ section h3 {
 }
 
 @media (max-width: 768px) {
-    .header-inner {
+    .header-div {
         flex-direction: column;
         gap: 0.75rem;
         text-align: center;
@@ -215,12 +215,12 @@ section h3 {
         font-size: 0.82rem;
     }
 
-    .hero-section {
+    .main-section {
         grid-template-columns: 1fr;
     }
 
-    .obiettivi-grid,
-    .feature-grid {
+    .section-grid-2,
+    .section-grid-3 {
         grid-template-columns: 1fr;
     }
 
@@ -229,22 +229,22 @@ section h3 {
     }
 
     section,
-    .obiettivi-section,
-    .giornata-speciale,
+    .section-grid-2,
+    .topday,
     .script-section {
         padding: 1.25rem 1.25rem;
     }
 
-    .mansione-item {
+    .list-item {
         flex-direction: column;
         gap: 0.5rem;
     }
 
-    .mansione-num {
+    .list-num {
         font-size: 1.2rem;
     }
 
-    .scuola-info {
+    .school-info {
         flex-direction: column;
         align-items: flex-start;
     }
