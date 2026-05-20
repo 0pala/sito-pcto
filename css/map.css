@@ -1,0 +1,12 @@
+.map-container {
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  margin-top: 1rem;
+  border: 1px solid var(--border);
+}
+
+.map-container iframe {
+  display: block;
+  border: 0;
+}

@@ -1,79 +1,127 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diario — PCTO Davide Andrea Palazzo</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-</head>
-<body>
-
-    <header>
-        <div class="header-inner">
-            <img src="../images/logo-scuola.jpg" alt="Logo ITCS Erasmo da Rotterdam" class="logo-img">
-            <div class="header-title">
-                <span class="header-label">PCTO Digital Report</span>
-                <h1>Portfolio Digitale</h1>
-            </div>
-            <img src="../images/logo-comune.webp" alt="Logo Comune Paderno Dugnano" class="logo-img">
-        </div>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="./azienda.html">L'Azienda</a></li>
-            <li><a href="./mansioni.html">Mansioni</a></li>
-            <li><a href="./diario.html" class="active">Diario</a></li>
-            <li><a href="./contatti.html">Contatti</a></li>
-        </ul>
-    </nav>
-
-    <main>
-        <div class="page-hero">
-            <h2>Diario di Bordo</h2>
-            <p class="page-subtitle">Il racconto della mia esperienza</p>
-        </div>
-
-        <section>
-            <h3>L'esperienza, giorno dopo giorno</h3>
-            <p>Il mio PCTO è stato vario e stimolante. Passare dall'assistenza ai cittadini alla gestione tecnica dei computer mi ha fatto capire quanto sia complesso far funzionare una macchina grande come un Comune. Ogni reparto aveva le sue sfide e le sue logiche.</p>
-            <p>La parte di ricerca sui software mi ha permesso di mettere in pratica le mie capacità di analisi tecnica, confrontando sintassi delle formule e funzionalità di database tra Excel, Calc e Airtable — un esercizio che nella pratica è più complesso di quanto sembri.</p>
-        </section>
-
-        <!-- CARD TOP DAY -->
-        <div class="giornata-speciale">
-            <div class="topday-badge">⭐ Top Day</div>
-            <h3>La mia Giornata Particolare: al reparto SIC</h3>
-
-            <div class="topday-grid">
-                <div class="topday-block">
-                    <h4>⚙️ L'Aspetto Tecnico</h4>
-                    <p>Il momento più significativo è stato il tempo trascorso al reparto <strong>SIC — Sistemi Informativi Comunali</strong>. Lì ho potuto vedere da vicino la gestione dei server comunali e l'assistenza hardware/software ai dipendenti. La soddisfazione più grande? <strong>Sviluppare autonomamente uno script</strong> progettato per facilitare e velocizzare il lavoro quotidiano di alcuni dipendenti del Comune.</p>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Diario — PCTO Davide Andrea Palazzo</title>
+        <link rel="stylesheet" href="../css/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=JetBrains+Mono:wght@400;500&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header>
+            <div class="header-div">
+                <img
+                    src="../images/logo-scuola.png"
+                    alt="Logo ITCS Erasmo da Rotterdam"
+                    class="logo-img"
+                />
+                <div class="header-title">
+                    <span>PCTO Digital Report</span>
+                    <h1>Portfolio Digitale</h1>
                 </div>
-                <div class="topday-block">
-                    <h4>💡 L'Aspetto Formativo</h4>
-                    <p>Riuscire a creare qualcosa di concreto, scrivendo codice che viene poi <strong>effettivamente utilizzato da persone reali</strong> nel loro lavoro quotidiano, mi ha fatto sentire utile e gratificato. Ha confermato la mia passione per l'informatica e mi ha fatto capire l'impatto reale che il software ha sulla produttività aziendale.</p>
-                </div>
+                <img
+                    src="../images/logo-comune.png"
+                    alt="Logo Comune Paderno Dugnano"
+                    class="logo-img"
+                />
             </div>
-        </div>
+        </header>
 
-        <!-- SEZIONE SCRIPT REALE -->
-        <section class="script-section">
-            <h3>Lo script che ho scritto</h3>
-            <p>Invece di mostrare una semplice foto di codice, ecco direttamente lo script <code>.bat</code> che ho sviluppato al SIC. Si tratta di uno script Windows che automatizza la configurazione di Firefox per l'uso con la CIE (Carta d'Identità Elettronica): installa i certificati necessari, configura le preferenze del browser e registra il modulo crittografico per la lettura della CIE.</p>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./azienda.html">L'Azienda</a></li>
+                <li><a href="./mansioni.html">Mansioni</a></li>
+                <li><a href="./diario.html" class="active">Diario</a></li>
+                <li><a href="./contatti.html">Contatti</a></li>
+            </ul>
+        </nav>
 
-            <div class="code-block-wrapper">
-                <div class="code-header">
-                    <div class="code-dots">
-                        <span></span><span></span><span></span>
+        <main>
+            <div class="main-title">
+                <h2>Diario di Bordo</h2>
+                <p>Il racconto della mia esperienza</p>
+            </div>
+
+            <section>
+                <h3>Esperienza generale</h3>
+                <p>
+                    Il mio PCTO è stato vario e stimolante. Passare
+                    dall'assistenza ai cittadini alla gestione tecnica dei
+                    computer mi ha fatto capire quanto sia complesso far
+                    funzionare una macchina grande come un Comune.
+                </p>
+                <p>
+                    La parte di ricerca sui software mi ha permesso di mettere
+                    in pratica le mie capacità di analisi tecnica, confrontando
+                    sintassi delle formule e funzionalità di database tra vari
+                    software: un esercizio che nella pratica è più complesso di
+                    quanto sembri.
+                </p>
+            </section>
+
+            <div class="topday">
+                <div class="topday-badge">⭐ Top Day</div>
+                <h3>La mia Giornata Particolare: Reparto SIC</h3>
+
+                <div class="topday-grid">
+                    <div class="topday-block">
+                        <h4>⚙️ L'Aspetto Tecnico</h4>
+                        <p>
+                            Il momento più significativo è stato il tempo
+                            trascorso al reparto
+                            <strong>SIC</strong>. Lì ho potuto vedere da vicino
+                            la gestione dei server comunali e l'assistenza
+                            hardware/software ai dipendenti. La soddisfazione
+                            più grande?
+                            <strong>Sviluppare autonomamente uno script</strong>
+                            progettato per facilitare e velocizzare il lavoro
+                            quotidiano di alcuni dipendenti del Comune.
+                        </p>
                     </div>
-                    <span class="code-filename">script-sic.bat</span>
-                    <span class="code-lang">Windows Batch</span>
+                    <div class="topday-block">
+                        <h4>💡 L'Aspetto Formativo</h4>
+                        <p>
+                            Riuscire a creare qualcosa di concreto, scrivendo
+                            codice che viene poi
+                            <strong
+                                >effettivamente utilizzato da persone
+                                reali</strong
+                            >
+                            nel loro lavoro quotidiano, mi ha fatto sentire
+                            utile e mi ha fatto capire l'impatto reale che il
+                            software ha sulla produttività aziendale.
+                        </p>
+                    </div>
                 </div>
-                <pre class="code-block"><code>@echo off
+            </div>
+
+            <section class="script-section">
+                <h3>Lo script che ho scritto</h3>
+                <p>
+                    Invece di mostrare una semplice foto di codice, ecco
+                    direttamente lo script <code>.bat</code> (con rispettive
+                    censure) che ho sviluppato al SIC. Si tratta di uno script
+                    Windows che automatizza la configurazione di Firefox per
+                    implementare l'uso della CIE (Carta d'Identità Elettronica):
+                    installa i certificati necessari, configura le preferenze
+                    del browser e registra il modulo crittografico per la
+                    lettura della CIE.
+                </p>
+
+                <div class="code-block-wrapper">
+                    <div class="code-header">
+                        <div class="code-dots">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <span class="code-filename">script-sic.bat</span>
+                        <span class="code-lang">Windows Batch</span>
+                    </div>
+                    <pre class="code-block"><code>@echo off
 setlocal enabledelayedexpansion
 
 <span class="comment">:: ── Chiusura di FireFox ──────────────────────────────</span>
@@ -81,9 +129,9 @@ setlocal enabledelayedexpansion
 
 <span class="comment">:: ── Inserimento Certificati CIE ──────────────────────</span>
 <span class="kw">echo</span> Inserimento certificati CIE nel magazzino di Windows...
-<span class="kw">certutil</span> -addstore -user Root <span class="str">"\\srv-datastore\monnezza$\CERTIFICATI\cie\...\NationalrootCA...crt"</span> &gt;nul
-<span class="kw">certutil</span> -addstore -user CA   <span class="str">"\\srv-datastore\monnezza$\CERTIFICATI\cie\...\IssuingsubCA...crt"</span>   &gt;nul
-<span class="kw">certutil</span> -addstore -user CA   <span class="str">"\\srv-datastore\monnezza$\CERTIFICATI\cie\...\SubCA...crt"</span>           &gt;nul
+<span class="kw">certutil</span> -addstore -user Root <span class="str">"\...\CERTIFICATI\cie\...\NationalrootCA.crt"</span> &gt;nul
+<span class="kw">certutil</span> -addstore -user CA   <span class="str">"\...\CERTIFICATI\cie\...\IssuingsubCA.crt"</span>   &gt;nul
+<span class="kw">certutil</span> -addstore -user CA   <span class="str">"\...\CERTIFICATI\cie\...\SubCA.crt"</span>           &gt;nul
 <span class="kw">echo</span> Certificati importati.
 
 <span class="comment">:: ── Trova il percorso del profilo Firefox ────────────</span>
@@ -124,28 +172,60 @@ setlocal enabledelayedexpansion
 
 <span class="kw">echo</span> <span class="str">OPERAZIONE COMPLETATA</span>
 pause</code></pre>
+                </div>
+
+                <div class="script-explain">
+                    <h4>Cosa fa questo script?</h4>
+                    <ol>
+                        <li>
+                            <strong>Chiude Firefox</strong> se è aperto, per
+                            poter modificare i file di configurazione in
+                            sicurezza.
+                        </li>
+                        <li>
+                            <strong>Installa i certificati CIE</strong> (Carta
+                            d'Identità Elettronica) nel magazzino certificati di
+                            Windows, necessari per autenticarsi sui portali
+                            della P.A.
+                        </li>
+                        <li>
+                            <strong>Trova il profilo Firefox</strong>
+                            dell'utente leggendo il file
+                            <code>profiles.ini</code> e navigando dinamicamente
+                            al percorso corretto.
+                        </li>
+                        <li>
+                            <strong>Scrive le preferenze</strong> nel file
+                            <code>user.js</code>, abilitando WebSocket sicuri e
+                            la lettura dei certificati aziendali di Windows.
+                        </li>
+                        <li>
+                            <strong>Registra il modulo PKCS#11</strong>
+                            <code>bit4opki.dll</code> nel file
+                            <code>pkcs11.txt</code> di Firefox, indispensabile
+                            per la lettura fisica della CIE dal lettore di
+                            smartcard.
+                        </li>
+                    </ol>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-div">
+                <p>
+                    Esperienza svolta nell'ambito del PCTO promosso da
+                    <strong>ITCS Erasmo da Rotterdam</strong>
+                </p>
+                <p class="footer-sub">
+                    A.S. 2025/2026 · Studente: Davide Andrea Palazzo · Classe
+                    4^G Informatica
+                </p>
+                <p class="footer-sub">
+                    Progetto realizzato con Prof. Mammoliti e Prof. Alessio —
+                    TPSIT
+                </p>
             </div>
-
-            <div class="script-explain">
-                <h4>Cosa fa questo script?</h4>
-                <ol>
-                    <li><strong>Chiude Firefox</strong> se è aperto, per poter modificare i file di configurazione in sicurezza.</li>
-                    <li><strong>Installa i certificati CIE</strong> (Carta d'Identità Elettronica) nel magazzino certificati di Windows, necessari per autenticarsi sui portali della P.A.</li>
-                    <li><strong>Trova il profilo Firefox</strong> dell'utente leggendo il file <code>profiles.ini</code> e navigando dinamicamente al percorso corretto.</li>
-                    <li><strong>Scrive le preferenze</strong> nel file <code>user.js</code>, abilitando WebSocket sicuri e la lettura dei certificati aziendali di Windows.</li>
-                    <li><strong>Registra il modulo PKCS#11</strong> <code>bit4opki.dll</code> nel file <code>pkcs11.txt</code> di Firefox, indispensabile per la lettura fisica della CIE dal lettore di smartcard.</li>
-                </ol>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="footer-inner">
-            <p>Esperienza svolta nell'ambito del PCTO promosso da <strong>ITCS Erasmo da Rotterdam</strong></p>
-            <p class="footer-sub">A.S. 2025/2026 · Studente: Davide Andrea Palazzo · Classe 4^G Informatica</p>
-            <p class="footer-sub">Progetto realizzato con Prof. Mammoliti e Prof. Alessio — TPSIT</p>
-        </div>
-    </footer>
-
-</body>
+        </footer>
+    </body>
 </html>

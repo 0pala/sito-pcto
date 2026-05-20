@@ -1,0 +1,32 @@
+.school-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.school-logo {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+    border-radius: 6px;
+    flex-shrink: 0;
+}
+
+.school-info {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.school-info h4 {
+    margin-bottom: 0.2rem;
+}
+
+.school-info p {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.1rem;
+}

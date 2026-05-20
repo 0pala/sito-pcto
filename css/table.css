@@ -1,0 +1,37 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--bg-white);
+}
+
+th,
+td {
+    border: 1px solid var(--border);
+    padding: 0.9rem 1.1rem;
+    text-align: left;
+    font-size: 0.93rem;
+}
+
+th {
+    background-color: var(--navy);
+    color: #ffffff;
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+}
+
+tr:nth-child(even) td {
+    background-color: var(--bg-card);
+}
+
+tr:hover td {
+    background-color: var(--blue-light);
+    transition: background 0.15s;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    margin-top: 1rem;
+}

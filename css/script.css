@@ -1,0 +1,138 @@
+.script-section {
+    background: var(--bg-white);
+    border-radius: var(--radius-lg);
+    padding: 2rem 2.5rem;
+    margin-bottom: 2rem;
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow-sm);
+}
+
+.script-section h3 {
+    color: var(--navy);
+    padding-bottom: 0.6rem;
+    border-bottom: 2px solid var(--blue-light);
+    margin-bottom: 1.25rem;
+}
+
+.code-block-wrapper {
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+    margin: 1.5rem 0;
+    border: 1px solid #1e293b;
+}
+
+.code-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: #1e293b;
+    padding: 0.75rem 1.25rem;
+    border-bottom: 1px solid #334155;
+}
+
+.code-dots {
+    display: flex;
+    gap: 6px;
+}
+
+.code-dots span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.code-dots span:nth-child(1) {
+    background: #ff5f57;
+}
+
+.code-dots span:nth-child(2) {
+    background: #febc2e;
+}
+
+.code-dots span:nth-child(3) {
+    background: #28c840;
+}
+
+.code-filename {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.82rem;
+    color: #94a3b8;
+    flex: 1;
+}
+
+.code-lang {
+    font-family: 'Syne', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #64748b;
+    background: #0f172a;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+}
+
+.code-block {
+    background: var(--code-bg);
+    color: var(--code-text);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.82rem;
+    line-height: 1.8;
+    padding: 1.5rem 1.75rem;
+    overflow-x: auto;
+    margin: 0;
+    white-space: pre;
+}
+
+.code-block code {
+    background: transparent;
+    color: inherit;
+    padding: 0;
+    border-radius: 0;
+}
+
+.code-block .comment {
+    color: #64748b;
+    font-style: italic;
+}
+
+.code-block .kw {
+    color: #7dd3fc;
+}
+
+.code-block .str {
+    color: #86efac;
+}
+
+.code-block .var {
+    color: #fde68a;
+}
+
+.code-block .c {
+    color: #000000;
+}
+
+.script-explain {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.5rem 1.75rem;
+    margin-top: 1rem;
+}
+
+.script-explain h4 {
+    color: var(--navy);
+    margin-bottom: 0.75rem;
+}
+
+.script-explain ol {
+    padding-left: 1.25rem;
+}
+
+.script-explain li {
+    margin-bottom: 0.5rem;
+    font-size: 0.93rem;
+    color: var(--text);
+}
